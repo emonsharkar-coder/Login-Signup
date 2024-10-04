@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+form input {
+    transition: all 0.2s ease-in-out;
+}
+
+form input:focus {
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
